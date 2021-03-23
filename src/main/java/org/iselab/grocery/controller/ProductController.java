@@ -85,12 +85,12 @@ public class ProductController {
         SystemUtils.pressEnterKeyToContinue();
 
 
-//        Shapes rectangle = new Rectangle("Rectangle",6,7);
-//        rectangle.getShape();
-//        double areaRec = rectangle.calculateArea(4,6);
+        Shapes rectangle = new Rectangle("Rectangle",6,7);
+        rectangle.getShape();
+        double areaRec = rectangle.calculateArea(4,6);
 
-//        System.out.println("this is a useless thing for test: "+ areaRec);
-//        SystemUtils.pressEnterKeyToContinue();
+        System.out.println("this is a useless thing for test: "+ areaRec);
+        SystemUtils.pressEnterKeyToContinue();
     }
 
     public void searchByName() {

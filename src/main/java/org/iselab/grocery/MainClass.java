@@ -11,7 +11,7 @@ public class MainClass {
 
         mainClass.run();
 
-//        SystemUtils.closeScanner();
+        SystemUtils.closeScanner();
     }
 
     public int showMenu() {

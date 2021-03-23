@@ -33,9 +33,9 @@ public class SystemUtils {
         }
     }
 
-//    public static void closeScanner() {
-//        input.close();
-//    }
+    public static void closeScanner() {
+        input.close();
+    }
 
     public static void printHeader(String... paths) {
 
