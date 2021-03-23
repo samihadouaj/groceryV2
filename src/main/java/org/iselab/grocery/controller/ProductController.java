@@ -96,10 +96,10 @@ public class ProductController {
         Product product = new Product();
 
         System.out.print("Name: ");
-//        product.setName(SystemUtils.getStringFromKeyboard());
+        product.setName(SystemUtils.getStringFromKeyboard());
 
         System.out.print("Amount: ");
-//        product.setAmount(SystemUtils.getIntFromKeyboard());
+        product.setAmount(SystemUtils.getIntFromKeyboard());
 
         productRepository.save(product);
     }
