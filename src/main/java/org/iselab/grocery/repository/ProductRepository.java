@@ -43,18 +43,18 @@ public class ProductRepository {
         return found;
     }
     
-//    public Product removeById(int id) {
-//
-//        Product found = findById(id);
-//
-//        if (found == null) {
-//            return null;
-//        }
-//
-//        products.remove(found);
-//
-//        return found;
-//    }
+    public Product removeById(int id) {
+
+        Product found = findById(id);
+
+        if (found == null) {
+            return null;
+        }
+
+        products.remove(found);
+
+        return found;
+    }
 
 //    public boolean max(int a, int b) {
 //        if(a > b) {

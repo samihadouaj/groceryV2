@@ -70,13 +70,13 @@ public class ProductController {
 
         System.out.println("----------------");
 
-//        Product removed = productRepository.removeById(id);
+        Product removed = productRepository.removeById(id);
 
-//        if (removed == null) {
-//            System.out.println("Product not found");
-//        } else {
-//            System.out.println("Product " + removed.getName() + " was successfully removed");
-//        }
+        if (removed == null) {
+            System.out.println("Product not found");
+        } else {
+            System.out.println("Product " + removed.getName() + " was successfully removed");
+        }
         Shapes circle = new Shapes("circle");
         circle.getShape();
         String shape = circle.getShape();
