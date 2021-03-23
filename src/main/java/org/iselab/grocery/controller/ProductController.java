@@ -77,10 +77,11 @@ public class ProductController {
         } else {
             System.out.println("Product " + removed.getName() + " was successfully removed");
         }
-        Shapes shapes = new Shapes("circle");
-        String shape = shapes.getShape();
-//        double area = circle.calculateArea(4);
+        Shapes circle = new Circle(4,"circle");
+        String shape = circle.getShape();
+        double area = circle.calculateArea(4);
         System.out.println("this is a useless thing for test: "+ shape);
+        System.out.println("this is a useless thing for test: "+ area);
         SystemUtils.pressEnterKeyToContinue();
 
 
