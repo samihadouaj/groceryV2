@@ -9,5 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.whispersystems:axolotl-java:1.4.3" level="project" />
+    <orderEntry type="library" name="Maven: org.whispersystems:curve25519-java:0.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.5.0" level="project" />
   </component>
 </module>
