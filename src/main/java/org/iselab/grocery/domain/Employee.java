@@ -13,9 +13,9 @@ public class Employee extends Person{
         return  "hahah of course not, you are an employee";
     }
 
-//
-//   public String dublicated(String yes){
-//        System.out.println("YESSS");
-//        return  yes+" YYYYEEEESSSS";
-//    }
+
+   public String dublicated(String yes){
+        System.out.println("YESSS");
+        return  yes+" YYYYEEEESSSS";
+    }
 }
