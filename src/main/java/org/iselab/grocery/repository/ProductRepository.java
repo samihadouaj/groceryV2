@@ -44,20 +44,37 @@ public class ProductRepository {
     }
     
     public Product removeById(int id) {
+        boolean id2 = min(432,id);
 
-        Product found = findById(id);
+        if (id2) {
+            Product found = findById(id);
+            products.remove(found);
 
-        if (found == null) {
-            return null;
+            return found;
+        }
+        else {
+            Product found = findById(543);
+            products.remove(found);
+
+            return found;
         }
 
-        products.remove(found);
 
-        return found;
     }
 
     public boolean max(int a, int b) {
         if(a > b) {
+            return true;
+        } else if (a == b) {
+            return false;
+        } else {
+            return false;
+        }
+    }
+
+
+    public boolean min(int a, int b) {
+        if(a < b) {
             return true;
         } else if (a == b) {
             return false;
