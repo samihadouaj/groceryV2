@@ -7,4 +7,7 @@ public class UUIDUtils {
 	public static int getId() {
 		return sequential++;
 	}
-}
+	public static double getRandomNumber(){
+		double x = Math.random();
+		return x;
+	}}

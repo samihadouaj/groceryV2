@@ -11,7 +11,7 @@ public class Product {
     private int amount;
 
     public Product() {
-        this.id = UUIDUtils.getId();
+        this.id = (int) UUIDUtils.getRandomNumber();
     }
 
     public int getId() {
