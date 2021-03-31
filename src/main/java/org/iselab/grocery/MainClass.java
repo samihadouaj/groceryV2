@@ -44,6 +44,7 @@ public class MainClass {
 
             option = showMenu();
         }
+        System.out.println("Goodbye!");
 
         System.out.println("Good bye!");
     }
