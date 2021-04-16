@@ -39,6 +39,10 @@ public class Product {
         this.amount = amount;
     }
 
+    public String dublicated(String yes){
+        System.out.println("YESSS");
+        return  yes+" YYYYEEEESSSS";
+    }
     @Override
     public String toString() {
         

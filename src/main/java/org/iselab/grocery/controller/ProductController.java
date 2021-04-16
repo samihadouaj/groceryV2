@@ -77,19 +77,20 @@ public class ProductController {
         } else {
             System.out.println("Product " + removed.getName() + " was successfully removed");
         }
-        Shapes shapes = new Shapes("circle");
-        String shape = shapes.getShape();
-//        double area = circle.calculateArea(4);
+        Shapes circle = new Circle(4,"circle");
+        String shape = circle.getShape();
+        double area = circle.calculateArea(4);
         System.out.println("this is a useless thing for test: "+ shape);
+        System.out.println("this is a useless thing for test: "+ area);
         SystemUtils.pressEnterKeyToContinue();
 
 
-//        Shapes rectangle = new Rectangle("Rectangle",6,7);
-//        rectangle.getShape();
-//        double areaRec = rectangle.calculateArea(4,6);
+        Shapes rectangle = new Rectangle("Rectangle",6,7);
+        rectangle.getShape();
+        double areaRec = rectangle.calculateArea(4,6);
 
-//        System.out.println("this is a useless thing for test: "+ areaRec);
-//        SystemUtils.pressEnterKeyToContinue();
+        System.out.println("this is a useless thing for test: "+ areaRec);
+        SystemUtils.pressEnterKeyToContinue();
     }
 
     public void searchByName() {
